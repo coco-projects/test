@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "404262d7bda11a7582a9f5ac9b3c830e",
+    "packages": [
+        {
+            "name": "better/nanoid",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Microtribute/better-nanoid.git",
+                "reference": "f2e6e664a8680f640ac953555a1f4943f98802c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://mirrors.huaweicloud.com/repository/php/better/nanoid/0.0.1/better-nanoid-0.0.1.zip",
+                "reference": "f2e6e664a8680f640ac953555a1f4943f98802c1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Better\\Nanoid\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Microtribute",
+                    "email": "microtibute@github.io",
+                    "homepage": "https://github.com/Microtribute",
+                    "role": "Author"
+                }
+            ],
+            "description": "A copy of nanoid in PHP",
+            "homepage": "https://github.com/Microtribute/better-nanoid",
+            "keywords": [
+                "better",
+                "nanoid",
+                "php"
+            ],
+            "time": "2020-09-21T15:29:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.3.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
