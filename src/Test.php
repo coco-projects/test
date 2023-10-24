@@ -6,13 +6,14 @@
 
     class Test
     {
-        function test()
+        function getId()
         {
             $client = new Client();
+            return $client->produce($size = 32);
+        }
 
-            echo __METHOD__;
-            echo PHP_EOL;
-            echo $client->produce($size = 32);
-            echo PHP_EOL;
+        public function getMethod()
+        {
+            return __METHOD__;
         }
     }

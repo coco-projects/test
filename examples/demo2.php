@@ -5,4 +5,4 @@
     require '../vendor/autoload.php';
 
     $t = new Test();
-    echo $t->getId();
+    echo $t->getMethod();
