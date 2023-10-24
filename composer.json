@@ -1,13 +1,15 @@
 {
-	"name"     : "coco-project/test",
-	"type"     : "library",
-	"license"  : "MIT",
-	"autoload" : {
+	"name"              : "coco-project/test",
+	"description"       : "coco-project/test description",
+	"type"              : "library",
+	"license"           : "MIT",
+	"minimum-stability" : "dev",
+	"autoload"          : {
 		"psr-4" : {
 			"Coco\\test\\" : "src/"
 		}
 	},
-	"require"  : {
+	"require"           : {
 		"php"           : ">=7.3.0",
 		"better/nanoid" : "^0.0.1"
 	}
