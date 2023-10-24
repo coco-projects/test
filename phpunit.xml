@@ -1,0 +1,23 @@
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+		 bootstrap="vendor/autoload.php"
+		 cacheResultFile="tests_reaults/build/phpunit.result.cache"
+		 colors="true"
+		 verbose="true"
+>
+
+	<filter>
+		<whitelist processUncoveredFilesFromWhitelist="true">
+
+			<directory suffix=".php">src</directory>
+<!--			<file>/path/to/file</file>-->
+<!--
+			<exclude>
+				<directory suffix=".php">/path/to/files</directory>
+				<file>/path/to/file</file>
+			</exclude>
+			-->
+		</whitelist>
+	</filter>
+</phpunit>
+

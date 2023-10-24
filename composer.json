@@ -9,8 +9,16 @@
 			"Coco\\test\\" : "src/"
 		}
 	},
+	"autoload-dev"      : {
+		"psr-4" : {
+			"Coco\\Tests\\Unit\\" : "tests/Unit"
+		}
+	},
 	"require"           : {
 		"php"           : ">=7.3.0",
 		"better/nanoid" : "^0.0.1"
+	},
+	"require-dev"       : {
+		"phpunit/phpunit" : "^8"
 	}
 }
