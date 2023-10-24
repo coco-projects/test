@@ -1,6 +1,6 @@
 <?php
 
-    namespace Coco;
+    namespace Coco\test;
 
     use Better\Nanoid\Client;
 
