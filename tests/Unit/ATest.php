@@ -7,21 +7,21 @@
     use Coco\test\Test;
     use PHPUnit\Framework\TestCase;
 
-    final class ATest extends TestCase
+final class ATest extends TestCase
+{
+    public function testA()
     {
-        public function testA()
-        {
-            $t = new Test();
+        $t = new Test();
 
-            $string = 'Coco\test\Test::getMethod';
+        $string = 'Coco\test\Test::getMethod';
 
-            $this->assertEquals($string, $t->getMethod());
-        }
-
-        public function testB()
-        {
-            $t = new Test();
-            $t->getId();
-            $this->assertSame(1, 1);
-        }
+        $this->assertEquals($string, $t->getMethod());
     }
+
+    public function testB()
+    {
+        $t = new Test();
+        $t->getId();
+        $this->assertSame(1, 1);
+    }
+}

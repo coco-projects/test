@@ -1,2 +1,4 @@
 /vendor/
-/tests_reaults/
+/.build/
+/.phpstan.txt
+/nohup.out
