@@ -409,12 +409,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "80ce9a4c30e844dff3df136d6522cef8edac7505"
+                "reference": "b1d12a441d48c9e8ee0ca089fbeb92e188fa864f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/80ce9a4c30e844dff3df136d6522cef8edac7505",
-                "reference": "80ce9a4c30e844dff3df136d6522cef8edac7505",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b1d12a441d48c9e8ee0ca089fbeb92e188fa864f",
+                "reference": "b1d12a441d48c9e8ee0ca089fbeb92e188fa864f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -470,7 +470,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-22T11:35:15+00:00"
+            "time": "2023-10-29T08:00:35+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -827,12 +827,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c2efd5d0e8a2958235f6919c3e2b301760d12f88"
+                "reference": "9fa21014f4c615cf231b659fb7ea18cc402e96f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c2efd5d0e8a2958235f6919c3e2b301760d12f88",
-                "reference": "c2efd5d0e8a2958235f6919c3e2b301760d12f88",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9fa21014f4c615cf231b659fb7ea18cc402e96f2",
+                "reference": "9fa21014f4c615cf231b659fb7ea18cc402e96f2",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -928,7 +928,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-22T11:41:36+00:00"
+            "time": "2023-10-29T06:48:00+00:00"
         },
         {
             "name": "sebastian/cli-parser",

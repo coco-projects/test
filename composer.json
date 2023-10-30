@@ -6,7 +6,8 @@
 	"minimum-stability"    : "dev",
 	"autoload"             : {
 		"psr-4" : {
-			"Coco\\test\\" : "src/"
+			"Coco\\test\\"     : "src/",
+			"Coco\\examples\\" : "examples/"
 		}
 	},
 	"autoload-dev"         : {
