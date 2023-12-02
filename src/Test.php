@@ -1,14 +1,21 @@
 <?php
 
-    namespace Coco\test;
+declare(strict_types=1);
 
-    use Better\Nanoid\Client;
+/**
+ * @author Coco
+ */
+
+namespace Coco\test;
+
+use Better\Nanoid\Client;
 
 class Test
 {
     public function getId()
     {
-        $client = new Client();
+        $client    = new Client();
+
         return $client->produce($size = 32);
     }
 
